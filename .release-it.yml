@@ -4,6 +4,7 @@ git:
 github:
   release: true
   releaseName: "Release ${version}"
+  tokenRef: GITHUB_TOKEN
 npm:
   publish: false
 repository:
