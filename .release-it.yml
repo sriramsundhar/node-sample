@@ -6,3 +6,6 @@ github:
   releaseName: "Release ${version}"
 npm:
   publish: false
+repository:
+  type: git
+  url: "git@github.com:sriramsundhar/node-sample.git"
