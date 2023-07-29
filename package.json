@@ -1,0 +1,56 @@
+{
+  "name": "node-sample",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
+    "semantic-release": "semantic-release"
+  },
+  "compilerOptions": {
+    "outDir": "./dist"
+  },
+  "regexManagers": [
+    {
+      "description": "Update semantic-release version used by npx",
+      "fileMatch": [
+        "^\\.github/workflows/[^/]+\\.ya?ml$"
+      ],
+      "matchStrings": [
+        "\\srun: npx semantic-release@(?<currentValue>.*?)\\s"
+      ],
+      "datasourceTemplate": "npm",
+      "depNameTemplate": "semantic-release"
+    }
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "convict": "^6.2.4",
+    "express": "^4.18.2",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^10.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^10.0.4",
+    "@semantic-release/release-notes-generator": "^11.0.4",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.4.5",
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.1",
+    "semantic-release": "^21.0.7",
+    "typescript": "^5.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sriramsundhar/node-sample.git"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  }
+}
