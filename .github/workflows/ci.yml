@@ -29,6 +29,6 @@ jobs:
           node-version: 20
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
-      - run: npm run release
+      - run: npm run release --ci
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
