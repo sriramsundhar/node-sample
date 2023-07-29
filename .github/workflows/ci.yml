@@ -29,6 +29,8 @@ jobs:
           node-version: 20
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
+      - run: git config --global user.email "github@ci.agent"
+      - run: git config --global user.name "githubAgent"
       - run: npm run release --ci
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
