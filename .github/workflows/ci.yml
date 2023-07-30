@@ -16,7 +16,7 @@ jobs:
           node-version: 20
       - run: npm ci
 
-  release:
+  release-it:
     needs: build
     runs-on: ubuntu-latest
     permissions:
@@ -31,9 +31,29 @@ jobs:
       - run: npm ci
       - run: git config --global user.email "github@ci.agent"
       - run: git config --global user.name "githubAgent"
-      - run: npm run release --ci
+      - run: npm run release-it --ci
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           GIT_COMMITTER_EMAIL: github@ci.agent
           GIT_COMMITTER_NAME: githubAgent
+  semantic-release:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          registry-url: https://npm.pkg.github.com/
+      - run: npm ci
+      - run: npx semantic-release
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIT_COMMITTER_EMAIL: github@ci.agent
+          GIT_COMMITTER_NAME: githubAgent
+      
