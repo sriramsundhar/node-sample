@@ -1,33 +1,29 @@
 {
     "branches": "main",
+    "repositoryUrl": "git@github.com:sriramsundhar/node-sample.git",
     "plugins": [
       [
         "@semantic-release/commit-analyzer",
         {
-          "preset": "angular",
+          "preset": "eslint",
           "releaseRules": [
-            { "type": "docs", "scope": "README", "release": "patch" },
-            { "type": "merge", "release": "patch" }
-          ],
-          "parserOpts": {
-            "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
-          }
+            { "tag": "Docs", "message": "*README*", "release": "patch" },
+            { "tag": "New", "release": "patch" }
+          ]
         }
       ],
       "@semantic-release/release-notes-generator",
       "@semantic-release/changelog",
-    [
-      "@semantic-release/npm",
-      {
-        "npmPublish": false
-     }
-    ],
-    ["@semantic-release/git", {
-      "assets": ["dist/", "package.json","CHANGELOG.md"],
-      "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-    }],
-    "@semantic-release/github"
-    ],
-  "repositoryUrl": "git@github.com:sriramsundhar/node-sample.git"
-
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+      }
+      ],
+      ["@semantic-release/git", {
+        "assets": ["dist/", "package.json","CHANGELOG.md"],
+        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      }],
+      "@semantic-release/github"
+    ]
 }
