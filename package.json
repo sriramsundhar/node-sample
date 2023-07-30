@@ -8,8 +8,8 @@
     "build": "npx tsc",
     "start": "node dist/index.js",
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
-    "release": "release-it",
-    "release2": "semantic-release"
+    "release-it": "release-it",
+    "semantic-release": "semantic-release"
   },
   "compilerOptions": {
     "outDir": "./dist"
