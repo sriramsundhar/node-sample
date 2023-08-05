@@ -1,3 +1,11 @@
+## [0.0.6](https://github.com/sriramsundhar/node-sample/compare/v0.0.5...v0.0.6) (2023-08-05)
+
+
+### Bug Fixes
+
+* release ([19a9c8c](https://github.com/sriramsundhar/node-sample/commit/19a9c8c89cd271662f8d659a0088326665995340))
+* Use github token ([95114ec](https://github.com/sriramsundhar/node-sample/commit/95114ec9a297a7f2e751dd0411789ca97e22b8eb))
+
 ## [0.0.5](https://github.com/sriramsundhar/node-sample/compare/v0.0.4...v0.0.5) (2023-08-05)
 
 
