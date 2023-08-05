@@ -1,3 +1,10 @@
+## [0.0.4](https://github.com/sriramsundhar/node-sample/compare/v0.0.3...v0.0.4) (2023-08-05)
+
+
+### Bug Fixes
+
+* release version ([de135be](https://github.com/sriramsundhar/node-sample/commit/de135be9b32d57ba344acbe4b56be76f4d1add51))
+
 ## [0.0.3](https://github.com/sriramsundhar/node-sample/compare/v0.0.2...v0.0.3) (2023-08-05)
 
 
