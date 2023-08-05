@@ -1,3 +1,11 @@
+## [0.0.8](https://github.com/sriramsundhar/node-sample/compare/v0.0.7...v0.0.8) (2023-08-05)
+
+
+### Bug Fixes
+
+* enable release ([9649dfd](https://github.com/sriramsundhar/node-sample/commit/9649dfd2b0fd484d37e9b103460bcd3f3e7a2761))
+* release lifecycle ([#6](https://github.com/sriramsundhar/node-sample/issues/6)) ([ae81be5](https://github.com/sriramsundhar/node-sample/commit/ae81be519e2710d32e8d08f0fa199d0122f75f39))
+
 ## [0.0.7](https://github.com/sriramsundhar/node-sample/compare/v0.0.6...v0.0.7) (2023-08-05)
 
 
