@@ -1,6 +1,6 @@
 {
     "branches": "main",
-    "repositoryUrl": "git@github.com:sriramsundhar/node-sample.git",
+    "repositoryUrl": "https://github.com/sriramsundhar/node-sample.git",
     "plugins": [
       [
         "@semantic-release/commit-analyzer",
