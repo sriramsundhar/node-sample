@@ -1,3 +1,10 @@
+## [0.0.7](https://github.com/sriramsundhar/node-sample/compare/v0.0.6...v0.0.7) (2023-08-05)
+
+
+### Bug Fixes
+
+* ci cleanup ([#5](https://github.com/sriramsundhar/node-sample/issues/5)) ([e1804dc](https://github.com/sriramsundhar/node-sample/commit/e1804dc98a578bd40851504c50ea26d01f7aa77e))
+
 ## [0.0.6](https://github.com/sriramsundhar/node-sample/compare/v0.0.5...v0.0.6) (2023-08-05)
 
 
