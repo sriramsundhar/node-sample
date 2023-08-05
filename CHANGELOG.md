@@ -1,3 +1,10 @@
+## [0.0.5](https://github.com/sriramsundhar/node-sample/compare/v0.0.4...v0.0.5) (2023-08-05)
+
+
+### Bug Fixes
+
+* Add env ([37f8a4c](https://github.com/sriramsundhar/node-sample/commit/37f8a4cb8661ab0ee5173d155368aeb90a4857c3))
+
 ## [0.0.4](https://github.com/sriramsundhar/node-sample/compare/v0.0.3...v0.0.4) (2023-08-05)
 
 
