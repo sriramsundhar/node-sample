@@ -31,7 +31,7 @@ jobs:
       - run: npm ci
       - run: git config --global user.email "github@ci.agent"
       - run: git config --global user.name "githubAgent"
-      - run: npm run release-it --ci
+      - run: env && npm run release-it --ci
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
