@@ -1,3 +1,10 @@
+# [0.1.0](https://github.com/sriramsundhar/node-sample/compare/v0.0.8...v0.1.0) (2023-08-06)
+
+
+### Features
+
+* Enable minor release ([d8a33c2](https://github.com/sriramsundhar/node-sample/commit/d8a33c2a5e35ee9acd709ceb81ea26d8b3ec9e2d))
+
 ## [0.0.8](https://github.com/sriramsundhar/node-sample/compare/v0.0.7...v0.0.8) (2023-08-05)
 
 
