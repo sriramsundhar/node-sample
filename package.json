@@ -8,7 +8,6 @@
     "build": "npx tsc",
     "start": "node dist/index.js",
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
-    "release-it": "release-it",
     "semantic-release": "semantic-release"
   },
   "compilerOptions": {
@@ -31,7 +30,6 @@
     "@types/node": "^20.4.5",
     "concurrently": "^8.2.0",
     "nodemon": "^3.0.1",
-    "release-it": "^16.1.3",
     "semantic-release": "^21.0.7",
     "typescript": "^5.1.6"
   },
