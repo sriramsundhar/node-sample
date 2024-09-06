@@ -1,4 +1,5 @@
 # node-sample
-Test
+
+Sample repo with release life cycle
 
 New read me.
