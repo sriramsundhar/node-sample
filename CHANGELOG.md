@@ -1,3 +1,13 @@
+## [0.1.1](https://github.com/sriramsundhar/node-sample/compare/v0.1.0...v0.1.1) (2024-10-01)
+
+
+### Bug Fixes
+
+* Add line ([#7](https://github.com/sriramsundhar/node-sample/issues/7)) ([83f4c82](https://github.com/sriramsundhar/node-sample/commit/83f4c828008fed8d3fea20c3f675c8b8a7b34f82))
+* chore(deps): bump express in the npm_and_yarn group across 1 directory ([#11](https://github.com/sriramsundhar/node-sample/issues/11)) ([83dd463](https://github.com/sriramsundhar/node-sample/commit/83dd463dd920c43e65efcb73c6f848eedfac67f1))
+* chore(deps): bump the npm_and_yarn group across 1 directory with 2 updates ([#12](https://github.com/sriramsundhar/node-sample/issues/12)) ([999f86f](https://github.com/sriramsundhar/node-sample/commit/999f86f79ac564c0be40ea57b2228998e1c133fe))
+* ci ([9f748cb](https://github.com/sriramsundhar/node-sample/commit/9f748cb30161d47a54367b5dfd0f841e2c773aec))
+
 # [0.1.0](https://github.com/sriramsundhar/node-sample/compare/v0.0.8...v0.1.0) (2023-08-06)
 
 
